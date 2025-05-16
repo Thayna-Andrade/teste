@@ -1,0 +1,46 @@
+{
+    "resumo_geral": {
+      "total_ataques": 452,
+      "alertas_criticos": 23,
+      "ultima_atualizacao": "2025-04-27T15:45:00"
+    },
+    "tipos_ataques": [
+      { "id": 1, "tipo": "DDoS", "quantidade": 180 },
+      { "id": 2, "tipo": "Phishing", "quantidade": 120 },
+      { "id": 3, "tipo": "Malware", "quantidade": 90 },
+      { "id": 4, "tipo": "Ransomware", "quantidade": 40 },
+      { "id": 5, "tipo": "Spyware", "quantidade": 22 }
+    ],
+    "incidentes_recentes": [
+      { "id": 1, "data": "2025-04-27", "tipo": "Phishing", "status": "Em Análise" },
+      { "id": 2, "data": "2025-04-26", "tipo": "DDoS", "status": "Resolvido" },
+      { "id": 3, "data": "2025-04-26", "tipo": "Malware", "status": "Crítico" }
+    ],
+    "origens_ataques": [
+      {
+        "id": 1,
+        "pais": "China",
+        "quantidade": 120,
+        "coordenadas": { "lat": 35.8617, "lng": 104.1954 }
+      },
+      {
+        "id": 2,
+        "pais": "Rússia",
+        "quantidade": 90,
+        "coordenadas": { "lat": 61.524, "lng": 105.3188 }
+      },
+      {
+        "id": 3,
+        "pais": "Brasil",
+        "quantidade": 50,
+        "coordenadas": { "lat": -14.235, "lng": -51.9253 }
+      },
+      {
+        "id": 4,
+        "pais": "Estados Unidos",
+        "quantidade": 60,
+        "coordenadas": { "lat": 37.0902, "lng": -95.7129 }
+      }
+    ]
+  }
+  
